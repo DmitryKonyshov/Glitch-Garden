@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1105679430214016209}
   - component: {fileID: 1105679430214016210}
   - component: {fileID: 1105679430214016211}
-  - component: {fileID: 1105679428642770681}
   m_Layer: 0
   m_Name: Core Game Area
   m_TagString: Untagged
@@ -71,16 +70,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bba16574198f0458e93207586b55a017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1105679428642770681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105679430214016212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 695ab7d7db3544e19b614bc54352afa7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeToWait: 4
