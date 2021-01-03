@@ -8,7 +8,7 @@ public class Gravestone : MonoBehaviour
 
         if (attacker)
         {
-
+            //TODO Add some sort of animation
         }
     }
 }
