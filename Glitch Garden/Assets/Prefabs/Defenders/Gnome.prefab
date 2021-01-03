@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2725569661502600096}
   - component: {fileID: 2725569661502600097}
   - component: {fileID: 7171125970735992382}
+  - component: {fileID: 1152253332453314379}
   m_Layer: 0
   m_Name: Gnome
   m_TagString: Untagged
@@ -160,6 +161,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1152253332453314379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2725569661502600110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf25898fc7a0b499ca9658445d232516, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathVFX: {fileID: 0}
 --- !u!1 &2725569661697664595
 GameObject:
   m_ObjectHideFlags: 0
