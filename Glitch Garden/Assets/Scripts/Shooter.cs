@@ -29,8 +29,8 @@ public class Shooter : MonoBehaviour
         AttackerSpawner[] spawners = FindObjectsOfType<AttackerSpawner>();
         foreach (AttackerSpawner spawner in spawners)
         {
-            bool IsCloseEnough = (Mathf.Abs(spawner.transform.position.y - transform.position.y) <= Mathf.Epsilon);
-            if (IsCloseEnough)
+            bool isCloseEnough = (Mathf.Abs(spawner.transform.position.y - transform.position.y) <= Mathf.Epsilon);
+            if (isCloseEnough)
             {
                 myLaneSpawner = spawner;
             }
@@ -39,7 +39,7 @@ public class Shooter : MonoBehaviour
 
     private bool IsAttackerInLane()
     {
-        if (myLaneSpawner.transform.childCount <= 0)
+        if (!(myLaneSpawner is null) && myLaneSpawner.transform.childCount <= 0)
         {
             return false;
         }
